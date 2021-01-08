@@ -14,10 +14,17 @@
     "type": "git",
     "url": "git+https://github.com/frappaaa/frappaaa.git"
   },
-  "author": "",
+  "keywords": [
+    "personal-site",
+    "front-end-developer"
+  ],
+  "author": "Francesco Luppi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/frappaaa/frappaaa/issues"
   },
-  "homepage": "https://github.com/frappaaa/frappaaa#readme"
+  "homepage": "https://github.com/frappaaa/frappaaa#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.1.1"
+  }
 }
