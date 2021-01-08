@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/frappaaa/frappaaa/issues"
   },
-  "homepage": "https://github.com/frappaaa/frappaaa#readme"
+  "homepage": "https://github.com/frappaaa/frappaaa#readme",
+  "dependencies": {
+    "node-spotify-api": "^1.1.1"
+  }
 }

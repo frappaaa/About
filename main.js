@@ -1,26 +1,12 @@
-import { getNowPlaying } from 'lib/spotify.js';
-
-export default async (_, res) => {
-  const response = await getNowPlaying();
-
-  if (response.status === 204 || response.status > 400) {
-    return res.status(200).json({ isPlaying: false });
+var Spotify = require('node-spotify-api');
+var spotify = new Spotify({
+  id: process.env.client_id,
+  secret: process.env.client_secret
+});
+spotify.search({ type: 'track', query: 'All the Small Things' }, function(err, data) {
+  if (err) {
+    return console.log('Error occurred: ' + err);
   }
-
-  const song = await response.json();
-  const isPlaying = song.is_playing;
-  const title = song.item.name;
-  const artist = song.item.artists.map((_artist) => _artist.name).join(', ');
-  const album = song.item.album.name;
-  const albumImageUrl = song.item.album.images[0].url;
-  const songUrl = song.item.external_urls.spotify;
-
-  return res.status(200).json({
-    album,
-    albumImageUrl,
-    artist,
-    isPlaying,
-    songUrl,
-    title
-  });
-};
+ 
+console.log(data)
+});
