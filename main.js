@@ -1,4 +1,5 @@
-var Spotify = require('node-spotify-api');
+import Spotify from 'node-spotify-api'
+
 var spotify = new Spotify({
   id: process.env.client_id,
   secret: process.env.client_secret
