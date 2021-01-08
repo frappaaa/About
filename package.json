@@ -1,0 +1,23 @@
+{
+  "name": "frappaaa",
+  "version": "1.0.0",
+  "description": "Personal site",
+  "main": "flag.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frappaaa/frappaaa.git"
+  },
+  "keywords": [
+    "personal-site",
+    "front-end-developer"
+  ],
+  "author": "Francesco Luppi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frappaaa/frappaaa/issues"
+  },
+  "homepage": "https://github.com/frappaaa/frappaaa#readme"
+}
