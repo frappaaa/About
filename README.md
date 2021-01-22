@@ -6,3 +6,4 @@ I've worked as a web designer for almost 4 years now, for agencies, organization
 [![Repos Badge](https://badges.pufler.dev/repos/frappaaa)](https://badges.pufler.dev)
 [![Years Badge](https://badges.pufler.dev/years/frappaaa)](https://badges.pufler.dev)
 [![Updated Badge](https://badges.pufler.dev/updated/frappaaa/frappaaa)](https://badges.pufler.dev)
+[![Commits Badge](https://badges.pufler.dev/commits/monthly/frappaaa)](https://badges.pufler.dev)
