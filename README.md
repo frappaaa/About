@@ -21,8 +21,8 @@ Javascript (perchè è un mondo intero e non si smette mai di scoprire), React e
 Il framework di Ionic per poter creare app native contemporaneamente sia per Android che per iOS, Python per poter sviluppare le skill adeguate nella comprensione dell'intelligenza artificiale e Machine Learning.
 
 ***
-
-## Il mio sito è stato creato con il framework NuxtJS e questi sono i comandi per installare il sito in locale
+## Il mio sito è stato creato con il framework NuxtJS. Se vuoi puoi copiarlo e lavorarci in locale.
+## Questi sono i comandi per installare il sito in locale
 
 ```bash
 # install dependencies
