@@ -12,13 +12,33 @@ Sono un giovane web & graphic designer italiano, Modena. Sempre pronto a imparar
 Lavoro come web designer da quasi 4 anni ormai, per agenzie, organizzazioni e per conto mio.
 
 ### Cosa conosco
+<style>
 
-* <img src="https://s2.svgbox.net/files.svg?ic=html&color=000000" width="32" height="32"> HTML
-* <img src="https://s2.svgbox.net/files.svg?ic=css&color=000000" width="32" height="32"> CSS
-* <img src="https://s2.svgbox.net/files.svg?ic=sass&color=000000" width="32" height="32"> Sass
-* <img src="https://s2.svgbox.net/files.svg?ic=php&color=000000" width="32" height="32"> PHP
-* <img src="https://s2.svgbox.net/files.svg?ic=js-official&color=000000" width="32" height="32"> Javascript
-* <img src="https://s2.svgbox.net/social.svg?ic=wordpress&color=000" width="32" height="32"> Wordpress.
+    .list-element{
+        border: 1px solid;
+        border-radius: 10px;
+        display:flex;
+        align-items: center;
+        justify-content:space-between;
+        padding:10px;
+    }
+
+    .list-element img{
+        border-right: 1px solid;
+        padding-right:10px;
+    }
+
+</style>
+
+<div class="list-element">
+<img src="https://s2.svgbox.net/files.svg?ic=html&color=000000" width="32" height="32"> HTML</div>
+
+<div class="list-element">
+<img src="https://s2.svgbox.net/files.svg?ic=css&color=000000" width="32" height="32"> CSS</div>
+<div class="list-element"><img src="https://s2.svgbox.net/files.svg?ic=sass&color=000000" width="32" height="32"> Sass</div>
+<div class="list-element"><img src="https://s2.svgbox.net/files.svg?ic=php&color=000000" width="32" height="32"> PHP</div>
+<div class="list-element"><img src="https://s2.svgbox.net/files.svg?ic=js-official&color=000000" width="32" height="32"> Javascript</div>
+<div class="list-element"><img src="https://s2.svgbox.net/social.svg?ic=wordpress&color=000" width="32" height="32"> Wordpress</div>
 
 ***
 
