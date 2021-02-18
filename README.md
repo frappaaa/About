@@ -49,4 +49,4 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Per una spiegazione dettagliata su come funzionano le cose, controlla i [documenti di Nuxt.js](https://nuxtjs.org).
