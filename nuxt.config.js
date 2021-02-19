@@ -9,6 +9,9 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      //{ src:'https://cdn.jsdelivr.net/npm/@animxyz/vue@0.4.0/dist/VueAnimXyz.js' }
     ]
   },
 
@@ -18,6 +21,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    //'~/plugins/vue-animxyz.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
