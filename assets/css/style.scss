@@ -11,7 +11,7 @@ html {
         margin: 40px auto 100px auto;
 
         &>* {
-            padding: 25px 20px;
+            padding: 25px;
         }
 
         a{
@@ -48,6 +48,7 @@ html {
 
         main {
             background-color: #ffffff;
+            display: flex;
         }
 
         footer {

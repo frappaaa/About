@@ -11,7 +11,7 @@ html body {
 }
 
 html body > * {
-  padding: 25px 20px;
+  padding: 25px;
 }
 
 html body a {
@@ -51,6 +51,9 @@ html body header .bio .dati {
 
 html body main {
   background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 html body footer {
