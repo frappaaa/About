@@ -3,10 +3,6 @@
 [![Updated Badge](https://badges.pufler.dev/updated/frappaaa/frappaaa)](https://badges.pufler.dev)
 [![Commits Badge](https://badges.pufler.dev/commits/monthly/frappaaa)](https://badges.pufler.dev)
 
-# Hi, Francesco here! 👨🏻‍💻
-I'm a young web & graphic designer from Italy, Modena. Always ready to learn new things and create with the new organized worlds.
-I've worked as a web designer for almost 4 years now, for agencies, organizations, and on my own.
-
 # Ciao, sono Francesco! 👨🏻‍💻
 Sono un giovane web & graphic designer italiano, Modena. Sempre pronto a imparare cose nuove e creare con i nuovi mondi organizzati.
 Lavoro come web designer da quasi 4 anni ormai, per agenzie, organizzazioni e per conto mio.
@@ -33,3 +29,9 @@ Lavoro come web designer da quasi 4 anni ormai, per agenzie, organizzazioni e pe
 ### Cosa voglio imparare
 - Il framework di Ionic per poter creare app native contemporaneamente sia per Android che per iOS
 - Python per poter sviluppare le skill adeguate nella comprensione dell'intelligenza artificiale e Machine Learning
+
+***
+🇺🇸
+# Hi, Francesco here! 👨🏻‍💻
+I'm a young web & graphic designer from Italy, Modena. Always ready to learn new things and create with the new organized worlds.
+I've worked as a web designer for almost 4 years now, for agencies, organizations, and on my own.
