@@ -27,8 +27,9 @@ Lavoro come web designer da quasi 4 anni ormai, per agenzie, organizzazioni e pe
 ***
 
 ### Cosa voglio imparare
-- Il framework di Ionic per poter creare app native contemporaneamente sia per Android che per iOS
-- Python per poter sviluppare le skill adeguate nella comprensione dell'intelligenza artificiale e Machine Learning
+
+- [ ] Il framework di Ionic per poter creare app native contemporaneamente sia per Android che per iOS
+- [ ] Python per poter sviluppare le skill adeguate nella comprensione dell'intelligenza artificiale e Machine Learning
 
 ***
 🇺🇸
