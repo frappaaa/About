@@ -1,3 +1,12 @@
+a {
+  color: inherit;
+}
+
+ul {
+  margin: 0;
+  list-style-type: disc;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -14,50 +23,100 @@ html body > * {
   padding: 25px;
 }
 
-html body a {
-  color: inherit;
-}
-
 html body header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3A6DB8), color-stop(50%, #3A6DB8), color-stop(50%, #ffffff));
-  background-image: linear-gradient(#3A6DB8 0%, #3A6DB8 50%, #ffffff 50%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3A6DB8), color-stop(65%, #3A6DB8), color-stop(65%, #ffffff));
+  background-image: linear-gradient(#3A6DB8 0%, #3A6DB8 65%, #ffffff 65%);
   min-height: 100px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  html body header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#3A6DB8), color-stop(40%, #3A6DB8), color-stop(40%, #ffffff));
+    background-image: linear-gradient(#3A6DB8 0%, #3A6DB8 40%, #ffffff 40%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+  }
 }
 
 html body header .profile_pic img {
-  max-width: 150px;
+  max-width: 100px;
   border-radius: 8px;
   border: 10px solid #fff;
 }
 
-html body header .bio {
-  margin-left: 50px;
+@media only screen and (min-width: 768px) {
+  html body header .profile_pic img {
+    max-width: 150px;
+  }
 }
 
 html body header .bio .name {
   color: #ffffff;
 }
 
-html body header .bio .dati {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media only screen and (min-width: 768px) {
+  html body header .bio .dati {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+  }
 }
 
 html body main {
   background-color: #ffffff;
+}
+
+html body main .list div:nth-last-child(1) {
+  padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+  html body main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+html body main aside ul {
+  list-style-type: none;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  gap: 10px;
+  overflow-x: scroll;
+  padding: 10px 0;
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  html body main aside ul {
+    display: block;
+  }
+}
+
+html body main aside ul li {
+  background-color: #eaf0fb;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+html body main aside ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
 }
 
 html body footer {

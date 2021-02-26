@@ -1,4 +1,18 @@
 $radius: 16px;
+$tablet: 768px;
+
+//STANDARD
+
+a {
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    list-style-type: disc;
+    
+}
+
 
 html {
     margin: 0;
@@ -14,42 +28,88 @@ html {
             padding: 25px;
         }
 
-        a{
-            color: inherit;
-        }
+
 
         header {
-            background-image: linear-gradient(#3A6DB8 0%, #3A6DB8 50%, #ffffff 50%);
+            background-image: linear-gradient(#3A6DB8 0%, #3A6DB8 65%, #ffffff 65%);
             min-height: 100px;
             border-top-left-radius: $radius;
             border-top-right-radius: $radius;
-            display: flex;
+
+            @media only screen and (min-width: $tablet) {
+                background-image: linear-gradient(#3A6DB8 0%, #3A6DB8 40%, #ffffff 40%);
+                display: flex;
+                gap: 30px;
+            }
 
             .profile_pic {
                 img {
-                    max-width: 150px;
+                    max-width: 100px;
                     border-radius: $radius/2;
                     border: 10px solid #fff;
+
+                    @media only screen and (min-width: $tablet) {
+                        max-width: 150px;
+                    }
+
                 }
             }
 
             .bio {
-                margin-left: 50px;
-
                 .name {
                     color: #ffffff;
                 }
 
                 .dati {
-                    display: flex;
+                    @media only screen and (min-width: $tablet) {
+                        display: flex;
+                        gap:30px;
+                    }
                 }
             }
         }
 
         main {
             background-color: #ffffff;
-            display: flex;
-            flex-direction: column-reverse;
+
+            .list div:nth-last-child(1){
+                padding-bottom: 60px;
+            }
+
+            @media only screen and (min-width: $tablet) {
+                display: flex;
+                flex-direction: row-reverse;
+            }
+
+            aside {
+            
+
+                ul {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    gap: 10px;
+                    overflow-x: scroll;
+                    padding: 10px 0;
+                    margin: 0;
+
+                    @media only screen and (min-width: $tablet) {
+                        display: block;
+                    }
+
+                    li {
+                        background-color: #eaf0fb;
+                        border-radius: $radius/2;
+                        padding: 10px;
+                        margin-bottom: 5px;
+
+                        a {
+                            display: flex;
+                            gap: 10px;
+                        }
+                    }
+                }
+            }
         }
 
         footer {
