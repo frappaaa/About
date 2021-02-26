@@ -1,0 +1,63 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #BCD2F7;
+}
+
+html body {
+  max-width: 768px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+html body > * {
+  padding: 25px 20px;
+}
+
+html body a {
+  color: inherit;
+}
+
+html body header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3A6DB8), color-stop(50%, #3A6DB8), color-stop(50%, #ffffff));
+  background-image: linear-gradient(#3A6DB8 0%, #3A6DB8 50%, #ffffff 50%);
+  min-height: 100px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body header .profile_pic img {
+  max-width: 150px;
+  border-radius: 8px;
+  border: 10px solid #fff;
+}
+
+html body header .bio {
+  margin-left: 50px;
+}
+
+html body header .bio .name {
+  color: #ffffff;
+}
+
+html body header .bio .dati {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html body main {
+  background-color: #ffffff;
+}
+
+html body footer {
+  background-color: #3A6DB8;
+  text-align: center;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+/*# sourceMappingURL=style.css.map */
