@@ -7,8 +7,7 @@ html {
 
 html body {
   max-width: 768px;
-  margin: 0 auto;
-  margin-top: 40px;
+  margin: 40px auto 100px auto;
 }
 
 html body > * {
@@ -57,6 +56,7 @@ html body main {
 html body footer {
   background-color: #3A6DB8;
   text-align: center;
+  color: #ffffff;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
 }
