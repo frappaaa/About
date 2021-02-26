@@ -49,6 +49,7 @@ html {
         main {
             background-color: #ffffff;
             display: flex;
+            flex-direction: column-reverse;
         }
 
         footer {
