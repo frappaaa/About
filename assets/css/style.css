@@ -35,6 +35,9 @@ ul {
 section {
   padding-bottom: 30px;
   margin-bottom: 40px;
+}
+
+section:not(:last-child) {
   border-bottom: 1px solid rgba(167, 167, 167, 0.226);
 }
 
@@ -50,12 +53,12 @@ html body {
   margin: 40px auto 100px auto;
 }
 
-html body > *:not(footer) {
-  padding: 25px 25px 0 25px;
+html body > * {
+  padding: 25px;
 }
 
-html body > footer {
-  padding: 25px;
+html body > *:not(footer) {
+  padding-bottom: 0;
 }
 
 html body header {

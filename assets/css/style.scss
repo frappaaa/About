@@ -31,7 +31,9 @@ ul {
 section {
     padding-bottom: 30px;
     margin-bottom: 40px;
-    border-bottom: 1px solid rgba(167, 167, 167, 0.226);
+    &:not(:last-child){
+        border-bottom: 1px solid rgba(167, 167, 167, 0.226);
+    }
 }
 
 
@@ -45,11 +47,11 @@ html {
         max-width: 768px;
         margin: 40px auto 100px auto;
 
-        &>*:not(footer) {
-            padding: 25px 25px 0 25px;
-        }
-        &>footer{
+        &>* {
             padding: 25px;
+            &:not(footer){
+                padding-bottom:0;
+            }
         }
 
 
