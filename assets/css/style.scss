@@ -1,5 +1,20 @@
+//Media queries
+
 $radius: 16px;
 $tablet: 768px;
+
+//animation
+@keyframes bounce {
+    0% {
+        top: 5px;
+    }
+    50%{
+        top: 0px;
+    }
+    100%{
+        top: 5px;
+    }
+}
 
 //STANDARD
 
@@ -10,10 +25,10 @@ a {
 ul {
     margin: 0;
     list-style-type: disc;
-    padding-left:20px;
+    padding-left: 20px;
 }
 
-section{
+section {
     padding-bottom: 30px;
     margin-bottom: 40px;
     border-bottom: 1px solid rgba(167, 167, 167, 0.226);
@@ -30,8 +45,11 @@ html {
         max-width: 768px;
         margin: 40px auto 100px auto;
 
-        &>* {
+        &>*:not(footer) {
             padding: 25px 25px 0 25px;
+        }
+        &>footer{
+            padding: 25px;
         }
 
 
@@ -69,7 +87,7 @@ html {
                 .dati {
                     @media only screen and (min-width: $tablet) {
                         display: flex;
-                        gap:30px;
+                        gap: 30px;
                     }
                 }
             }
@@ -78,7 +96,7 @@ html {
         main {
             background-color: #ffffff;
 
-            .list div:nth-last-child(1){
+            .list div:nth-last-child(1) {
                 padding-bottom: 60px;
             }
 
@@ -88,7 +106,7 @@ html {
             }
 
             aside {
-            
+
 
                 ul {
                     list-style-type: none;
@@ -116,29 +134,41 @@ html {
                     }
                 }
             }
-            .list{
+
+            .list {
                 @media only screen and (min-width: $tablet) {
                     margin-right: 10px;
                 }
-                section{
-                    ul{
-                        p.data{
-                            margin:20px 0 5px 0;
+
+                section {
+                    ul {
+                        p.data {
+                            margin: 20px 0 5px 0;
+
                             &:nth-last-of-type(1) {
-                                margin-top:35px;
+                                margin-top: 35px;
                             }
                         }
-                        li{
-                            h4{
+
+                        li {
+                            h4 {
                                 margin: 0;
                             }
-                            p{
-                                margin:3px 0 5px 0; 
+
+                            p {
+                                margin: 3px 0 5px 0;
                             }
-                            ul{
+
+                            ul {
                                 margin-top: 15px;
-                                li{
+
+                                li {
                                     margin-bottom: 5px;
+
+                                    img {
+                                        position: relative;
+                                        animation: bounce 1s ease-in-out infinite;
+                                    }
                                 }
                             }
                         }
