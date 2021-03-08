@@ -20,9 +20,9 @@ Lavoro come web designer da quasi 4 anni ormai, per agenzie, organizzazioni e pe
 ***
 
 ### Cosa sto imparando
-- Javascript (perchè è un mondo intero e non si smette mai di scoprire) 
-- React e NextJS ovvero i nuovi e più utilizzati framework basati su Javascrpit e sviluppati dagli ingegneri di Facebook
-- Vue e NuxtJS, altri framework che stanno acquisendo sempre più popolarità per la loro semplicità e potenza
+- [x] Javascript (perchè è un mondo intero e non si smette mai di scoprire) 
+- [x] React e NextJS ovvero i nuovi e più utilizzati framework basati su Javascrpit e sviluppati dagli ingegneri di Facebook
+- [x] Vue e NuxtJS, altri framework che stanno acquisendo sempre più popolarità per la loro semplicità e potenza
 
 ***
 
