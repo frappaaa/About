@@ -171,23 +171,37 @@ html body main .list section ul p.data:nth-last-of-type(1) {
   margin-top: 35px;
 }
 
-html body main .list section ul li h4 {
-  margin: 0;
-}
-
 html body main .list section ul li p {
   margin: 3px 0 5px 0;
+}
+
+html body main .list section ul li .glide {
+  width: 450px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+
+html body main .list section ul li .glide .glide__track ul.glide__slides li.glide__slide img {
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+html body main .list section ul li h4 {
+  margin: 0;
 }
 
 html body main .list section ul li ul {
   margin-top: 15px;
 }
 
-html body main .list section ul li ul li {
+html body main .list section ul li ul li:not(.glide__slide) {
   margin-bottom: 5px;
 }
 
-html body main .list section ul li ul li img {
+html body main .list section ul li ul li:not(.glide__slide) img {
   position: relative;
   -webkit-animation: bounce 1s ease-in-out infinite;
           animation: bounce 1s ease-in-out infinite;

@@ -8,10 +8,12 @@ $tablet: 768px;
     0% {
         top: 5px;
     }
-    50%{
+
+    50% {
         top: 0px;
     }
-    100%{
+
+    100% {
         top: 5px;
     }
 }
@@ -31,7 +33,8 @@ ul {
 section {
     padding-bottom: 30px;
     margin-bottom: 40px;
-    &:not(:last-child){
+
+    &:not(:last-child) {
         border-bottom: 1px solid rgba(167, 167, 167, 0.226);
     }
 }
@@ -49,8 +52,9 @@ html {
 
         &>* {
             padding: 25px;
-            &:not(footer){
-                padding-bottom:0;
+
+            &:not(footer) {
+                padding-bottom: 0;
             }
         }
 
@@ -153,18 +157,39 @@ html {
                         }
 
                         li {
-                            h4 {
-                                margin: 0;
-                            }
-
                             p {
                                 margin: 3px 0 5px 0;
+                            }
+
+                            .glide {
+                                width: 450px;
+                                height: 250px;
+                                margin-bottom: 30px;
+
+                                .glide__track {
+                                    ul.glide__slides {
+
+                                        li.glide__slide {
+
+                                            img {
+                                                width: 450px;
+                                                height: 250px;
+                                                border-radius: 20px;
+                                                object-fit: cover;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            h4 {
+                                margin: 0;
                             }
 
                             ul {
                                 margin-top: 15px;
 
-                                li {
+                                li:not(.glide__slide) {
                                     margin-bottom: 5px;
 
                                     img {

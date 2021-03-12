@@ -31,8 +31,3 @@ Lavoro come web designer da quasi 4 anni ormai, per agenzie, organizzazioni e pe
 - [ ] Il framework di Ionic per poter creare app native contemporaneamente sia per Android che per iOS
 - [ ] Python per poter sviluppare le skill adeguate nella comprensione dell'intelligenza artificiale e Machine Learning
 
-***
-🇺🇸
-# Hi, Francesco here! 👨🏻‍💻
-I'm a young web & graphic designer from Italy, Modena. Always ready to learn new things and create with the new organized worlds.
-I've worked as a web designer for almost 4 years now, for agencies, organizations, and on my own.
