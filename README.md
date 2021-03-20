@@ -4,8 +4,7 @@
 [![Commits Badge](https://badges.pufler.dev/commits/monthly/frappaaa)](https://badges.pufler.dev)
 
 # Ciao, sono Francesco! 👨🏻‍💻
-Sono un giovane web & graphic designer italiano, Modena. Sempre pronto a imparare cose nuove e creare con i nuovi mondi organizzati.
-Lavoro come web designer da quasi 4 anni ormai, per agenzie, organizzazioni e per conto mio.
+Sono un Junior Front End Developer e da 4 anni e mi occupo della creazione di siti, sia della parte grafica che quella del codice. Seguo tutto il processo dalla creazione dell'identità grafica di un progetto fino alla realizzazione di piattaforme dove comunicare i valori e messaggi del brand.
 
 ### Cosa conosco
 
