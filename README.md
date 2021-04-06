@@ -21,7 +21,7 @@
 
 🎰 Il mio obiettivo, in ogni progetto, è quello di costruire esperienze che possano aiutare e facilitare la vita di chi ne usufruisce. 
 
-### Cosa conosco
+### What I know & use | Cosa conosco e uso
 
 
 * <img src="https://s2.svgbox.net/files.svg?ic=html&color=000000" width="32" height="32"> HTML
@@ -33,14 +33,14 @@
 
 ***
 
-### Cosa sto imparando
+### What I'm learning | Cosa sto imparando
 - [x] Javascript (perchè è un mondo intero e non si smette mai di scoprire) 
 - [x] React e NextJS ovvero i nuovi e più utilizzati framework basati su Javascrpit e sviluppati dagli ingegneri di Facebook
 - [x] Vue e NuxtJS, altri framework che stanno acquisendo sempre più popolarità per la loro semplicità e potenza
 
 ***
 
-### Cosa voglio imparare
+### What I'm planning to learn | Cosa voglio imparare
 
 - [ ] Il framework di Ionic per poter creare app native contemporaneamente sia per Android che per iOS
 - [ ] Python per poter sviluppare le skill adeguate nella comprensione dell'intelligenza artificiale e Machine Learning
