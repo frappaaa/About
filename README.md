@@ -3,6 +3,15 @@
 [![Updated Badge](https://badges.pufler.dev/updated/frappaaa/frappaaa)](https://badges.pufler.dev)
 [![Commits Badge](https://badges.pufler.dev/commits/monthly/frappaaa)](https://badges.pufler.dev)
 
+# Hi, I'm Francesco! 👨🏻‍💻
+💻 Hi, I'm Francesco, I'm a Junior Front End Developer and I have been involved in the creation of sites for 4 years, both in the graphics and in the code. I follow the whole process from the creation of the graphic identity of a project to the creation of platforms to communicate the values ​​and messages of the brand.
+
+🤹‍♂️ I study continuously, with online courses and tutorials, to train myself in particular on the creation of websites and web apps with the most performing and updated technologies, including React and NextJS, one of the most used Javascript frameworks, without forgetting the basics with advanced courses on HTML, CSS, and other tools like WordPress.
+
+💼 I am looking for a part or full-time position where I can grow professionally and personally, experience all the concepts I am learning, and continue to learn.
+
+🎰 My goal, in every project, is to build experiences that can help and facilitate the life of those who use them. 
+
 # Ciao, sono Francesco! 👨🏻‍💻
 💻 Sono un Junior Front End Developer e da 4 anni e mi occupo della creazione di siti, sia della parte grafica che quella del codice. Seguo tutto il processo dalla creazione dell'identità grafica di un progetto fino alla realizzazione di piattaforme dove comunicare i valori e messaggi del brand.
 
