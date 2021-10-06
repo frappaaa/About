@@ -3,6 +3,8 @@
 [![Updated Badge](https://badges.pufler.dev/updated/frappaaa/frappaaa)](https://badges.pufler.dev)
 [![Commits Badge](https://badges.pufler.dev/commits/monthly/frappaaa)](https://badges.pufler.dev)
 
+<a href="https://app.daily.dev/frappa"><img src="https://api.daily.dev/devcards/f10eb2852e6446e180109927e00cf124.png?r=t47" width="400" alt="Francesco Luppi's Dev Card"/></a>
+
 # Hi, I'm Francesco! 👨🏻‍💻
 💻 Hi, I'm Francesco, I'm a Junior Front End Developer and I have been involved in the creation of sites for 4 years, both in the graphics and in the code. I follow the whole process from the creation of the graphic identity of a project to the creation of platforms to communicate the values ​​and messages of the brand.
 
